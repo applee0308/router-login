@@ -1,0 +1,80 @@
+.login-boarding h4 {
+	margin: 0;
+	padding-bottom: $gutter/3;
+	font-size: .85rem;
+	font-weight: normal;
+	color: $red;
+	text-align: center;
+}
+.btn__item {
+	text-align: right;
+	margin: $gutter*2 0 $gutter/3*2 0;
+	img {
+		margin-right: 3%;
+		width: 28px;
+	}
+}
+.content__item {
+	width: 94%;
+	margin: 0 auto;
+	padding: $gutter/3 2%;
+	background: rgba(255,255,255,.8);
+	border-radius: 2px;
+}
+.inner {
+	display: flex;
+	margin-bottom: $gutter/3;
+	.side--l {
+		flex: 1;
+		input,button {
+			border-top-left-radius: 2px;
+			border-bottom-left-radius: 2px;
+		}
+	}
+	.side--r {
+		width: 115px;
+		margin-left: $gutter/5;
+		input,button{
+			border-top-right-radius: 2px;
+			border-bottom-right-radius: 2px;
+		}
+	}
+	input {
+		width: 100%;
+		height: 38px;
+		padding: 0 6px;
+		font-size: .9rem;
+		border: 1px solid #a9a9a9;
+		border-radius: 0;
+		outline: none;
+		-webkit-appearance: none;
+	}
+	button {
+		width: 100%;
+		height: 38px;
+		color: #fff;
+		border: none;
+	}
+}
+.license {
+	@include clearfix;
+	padding: $gutter/3 2px $gutter/2 2px;
+	font-size: .9rem;
+	border-bottom: 1px solid #fff;
+	a {
+		color: $gray;
+		text-decoration: underline;
+	}
+	.l--primary {
+		color: $blue;
+	}
+}
+.umetrip {
+	padding-top: 6px;
+	@include fontColor($red);
+	img {
+		vertical-align: middle;
+		width: 16px;
+		margin-right: 3px;
+	}
+}

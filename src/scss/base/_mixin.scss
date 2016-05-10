@@ -1,0 +1,41 @@
+// tapcolor
+@mixin setTapColor($c:rgba(0, 0, 0, 0)) {
+    -webkit-tap-highlight-color: $c;
+}
+
+// user action
+@mixin noSelect() {
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        display: table;
+        content: " ";
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin fontColor($color) {
+    color: $color;
+    a {
+        color: inherit;
+    }
+}
+
+@mixin setBottomLine($c: #C7C7C7) {
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid $c;
+    color: $c;
+    transform-origin: 0 100%;
+    transform: scaleY(0.5);
+}

@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>DOCUMENT</title>
+    <link rel="stylesheet" href="../dist/css/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--  背景  -->
+        <section class="app-bg">
+            <img src="../images/main-bg.jpg" alt="">
+        </section>
+        <!--  \ 背景  -->
+        <!-- 背景底部copyright -->
+        <footer>
+            <p>技术支持由 掌慧纵盈旗下建飞网络</p>
+            <p>建飞网络客服电话：400-003-5060</p>
+            <p><a href="##">京ICP备12002594号-7</a></p>
+        </footer>
+        <!-- \ 背景底部copyright -->
+        <section class="lazy-reminder">
+            您尚未认证身份，如需上网，请完成认证
+        </section>
+        <!-- 路由容器 -->
+        <section class="main" id="main"></section>
+        <!-- \ 路由容器 -->
+    </div>
+    <script type="text/html" id="tpl-entry">
+        <div class="entry">
+            <div class="entry__item">
+                <a href="#/boarding" id="to-boarding">
+                    <div class="media is--caution">
+                        <img src="../images/boarding.png" alt="">
+                    </div>
+                    <p>登机牌认证</p>
+                </a>
+            </div>
+            <div class="entry__item">
+                <a href="#/phone">
+                    <div class="media is--primary">
+                        <img src="../images/phone.png" alt="">
+                    </div>
+                    <p>手机认证</p>
+                </a>
+            </div>
+            <div class="entry__item">
+                <a href="#/wechat">
+                    <div class="media is--success">
+                        <img src="../images/weixin.png" alt="">
+                    </div>
+                    <p>微信认证</p>
+                </a>
+            </div>
+        </div>
+    </script>
+    <script type="text/html" id="tpl-boarding">
+        <div class="login-boarding">
+            <div class="btn__item">
+                <a href="#/">
+                    <img src="../images/close-btn2.png" alt="">
+                </a>
+            </div>
+            <div class="content__item">
+                <h4>起飞时间+24小时内的登机牌可用于上网认证</h4>
+                <div class="inner row">
+                    <div class="side--l">
+                        <input type="text" placeholder="请输入登机牌">
+                    </div>
+                    <div class="side--r">
+                        <input type="text" placeholder="请输入座位号">
+                    </div>
+                </div>
+                <div class="inner row">
+                    <div class="side--l">
+                        <input type="text" placeholder="请输入购票证件后四位数字">
+                    </div>
+                    <div class="side--r">
+                        <button class="is--primary" id="btn-login">登&nbsp;&nbsp;录</button>
+                    </div>
+                </div>
+                <div class="license">
+                    <label>
+                        <input type="checkbox" checked>
+                    </label> 同意&nbsp;<a href="##">机场无线网使用条款</a>
+                    <a href="##" class="f--r l--primary">English</a>
+                </div>
+                <div class="umetrip">
+                    <h4><img src="../images/lhzh_logo.png" alt="">航旅纵横，轻松您的旅行，点击<a href="##">了解详情</a></h4>
+                </div>
+            </div>
+        </div>
+    </script>
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+    <script src="../dist/js/index-min.js"></script>
+</body>
+
+</html>

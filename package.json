@@ -1,0 +1,11 @@
+{
+  "name": "router-login",
+  "version": "1.0.0",
+  "description": "北京登录（SPA）",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Applee_zh",
+  "license": "MIT"
+}

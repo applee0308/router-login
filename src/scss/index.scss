@@ -1,0 +1,25 @@
+@import './base/normalize';
+@import './base/mixin';
+@import './components/container';
+@import './components/entry';
+@import './components/lazy-reminder';
+@import './components/login-by-boarding';
+@import './plugins/ickeck';
+body {
+	background: #f5f5f9;
+	color: $gray;
+}
+* {
+	@include setTapColor;
+}
+.main {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.f--l {
+	float: left;
+}
+.f--r {
+	float: right;
+}

@@ -1,0 +1,28 @@
+@import './base/vars';
+.container {
+	position: relative;
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.app-bg {
+	width: 100%;
+	img {
+		width: 100%;
+		vertical-align: bottom;
+	}
+}
+footer {
+	text-align: center;
+	margin: $gutter/3 0;
+	font-size: .85rem;
+	p {
+		color: $gray;
+		margin: $gutter/5 0;
+	}
+	a {
+		color: $gray;
+		outline: none;
+		text-decoration: none;
+	}
+}
